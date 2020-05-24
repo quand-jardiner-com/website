@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "quand jardiner",
   "main": "index.js",
-  "private": true,
   "scripts": {
     "start:dev": "parcel server src/index.html",
     "build:dev": "parcel build src/index.html",

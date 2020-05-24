@@ -8,7 +8,7 @@ module.exports = [
   },
   {
     title: "Artichaut",
-    operation_culturale: "Semis, Plantation",
+    operation_culturale: "Plantation",
     semis: "Mars - Avril",
     recolte: "Mai - Octobre, Septembre - Octobre",
     exposition: "Soleil",

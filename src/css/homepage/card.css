@@ -8,20 +8,18 @@
   width: 300px;
   border-radius: 10px;
   color: #586874;
+  z-index: 0;
 }
 
 .card__header {
   border-radius: 10px 10px 0 0;
-  /* background: linear-gradient(130deg, #586874, #6e8291); */
   background: linear-gradient(130deg, #808080, #b3b3b3);
-  /* background: #b3b3b3; */
   height: 225px;
   width: 100%;
 }
 
 .card__img {
   height: 300px;
-  width: 100%;
   z-index: 999;
 }
 
