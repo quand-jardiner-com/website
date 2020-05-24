@@ -1,6 +1,7 @@
 module.exports = [
   {
     title: "Ail",
+    url: "Ail",
     operation_culturale: "Plantation",
     semis: "Janvier - Avril",
     recolte: "Mai - Septembre",
@@ -8,13 +9,15 @@ module.exports = [
   },
   {
     title: "Artichaut",
+    url: "Artichaut",
     operation_culturale: "Plantation",
     semis: "Mars - Avril",
-    recolte: "Mai - Octobre, Septembre - Octobre",
+    recolte: "Mai - Octobre",
     exposition: "Soleil",
   },
   {
     title: "Asperge",
+    url: "Asperge",
     operation_culturale: "Semis",
     semis: "Mars - Avril",
     recolte: "Avril - Juin",
@@ -22,6 +25,7 @@ module.exports = [
   },
   {
     title: "Betterave",
+    url: "Betterave",
     operation_culturale: "Semis",
     semis: "Mars - Juin",
     recolte: "Juillet - Octobre",
@@ -29,6 +33,7 @@ module.exports = [
   },
   {
     title: "Brocoli",
+    url: "Brocoli",
     operation_culturale: "Semis",
     semis: "Mai - Juin",
     recolte: "Septembre - Mars",
@@ -36,13 +41,15 @@ module.exports = [
   },
   {
     title: "Carotte",
+    url: "Carotte",
     operation_culturale: "Semis",
     semis: "Mars - Juillet",
     recolte: "Juillet - Novembre",
     exposition: "Plein soleil",
   },
   {
-    title: "ChouxFleur",
+    title: "Chou-fleur",
+    url: "ChouxFleur",
     operation_culturale: "Semis",
     semis: "Mai - Juillet",
     recolte: "Juin - Novembre",
@@ -50,6 +57,7 @@ module.exports = [
   },
   {
     title: "Citrouille",
+    url: "Citrouille",
     operation_culturale: "Semis",
     semis: "Mai - Juin",
     recolte: "Septembre - Décembre",
@@ -57,6 +65,7 @@ module.exports = [
   },
   {
     title: "Concombre",
+    url: "Concombre",
     operation_culturale: "Semis",
     semis: "Avril - Mai",
     recolte: "Juin - Août",
@@ -64,6 +73,7 @@ module.exports = [
   },
   {
     title: "Courgette",
+    url: "Courgette",
     operation_culturale: "Semis",
     semis: "Mars - Juillet",
     recolte: "Mai - Octobre",
@@ -71,20 +81,23 @@ module.exports = [
   },
   {
     title: "Epinard",
+    url: "Epinard",
     operation_culturale: "Semis",
-    semis: "Février - Mai, Août - Novembre",
+    semis: "Février - Mai",
     recolte: "Octobre - Juillet",
     exposition: "Soleil / Ombre",
   },
   {
-    title: "OignonRouge",
+    title: "Oignon rouge",
+    url: "OignonRouge",
     operation_culturale: "Semis",
-    semis: "Février - Mai, Août - Novembre",
+    semis: "Février - Mai",
     recolte: "Mai - Novembre",
     exposition: "Soleil",
   },
   {
     title: "Panais",
+    url: "Panais",
     operation_culturale: "Semis",
     semis: "Mars - Juin",
     recolte: "Septembre - Mars",
@@ -92,13 +105,15 @@ module.exports = [
   },
   {
     title: "Patate",
+    url: "Patate",
     operation_culturale: "Plantation",
     semis: "Mai - Juin",
     recolte: "Septembre - Octobre",
     exposition: "Soleil",
   },
   {
-    title: "PetitPois",
+    title: "Petit pois",
+    url: "PetitPois",
     operation_culturale: "Semis",
     semis: "Octobre - Mai",
     recolte: "Mars - Juillet",
@@ -106,6 +121,7 @@ module.exports = [
   },
   {
     title: "Piment",
+    url: "Piment",
     operation_culturale: "Semis",
     semis: "Février - Mai",
     recolte: "Juillet - Octobre",
@@ -113,6 +129,7 @@ module.exports = [
   },
   {
     title: "Poivron",
+    url: "Poivron",
     operation_culturale: "Semis",
     semis: "Février - Avril",
     recolte: "Juillet - Octobre",
@@ -120,6 +137,7 @@ module.exports = [
   },
   {
     title: "Radis",
+    url: "Radis",
     operation_culturale: "Semis",
     semis: "Janvier - Septembre",
     recolte: "Mars - Novembre",
@@ -127,6 +145,7 @@ module.exports = [
   },
   {
     title: "Salade",
+    url: "Salade",
     operation_culturale: "Semis",
     semis: "Février - Octobre",
     recolte: "Juin - Septembre",
@@ -134,6 +153,7 @@ module.exports = [
   },
   {
     title: "Tomate",
+    url: "Tomate",
     operation_culturale: "Semis",
     semis: "Février - Mai",
     recolte: "Juin - Octobre",
