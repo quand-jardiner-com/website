@@ -23,8 +23,3 @@
     <router-view/>
   </div>
 </template>
-
-<style>
-#app {
-}
-</style>

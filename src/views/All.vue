@@ -21,14 +21,6 @@ export default {
   },
   components: {
     Card
-  },
-  computed:{
-
   }
 }
 </script>
-
-
-<style>
-
-</style>
