@@ -1,25 +1,29 @@
 {
-  "name": "website",
+  "name": "app",
   "version": "0.1.0",
-  "description": "quand jardiner",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start:dev": "parcel server src/index.html",
-    "build:dev": "parcel build src/index.html",
-    "postinstall": "npm run build:dev"
+    "start:dev": "vue-cli-service serve",
+    "build:dev": "vue-cli-service build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/quand-jardiner-com/website.git"
-  },
-  "author": "Augustin Ribreau",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/quand-jardiner-com/website/issues"
-  },
-  "homepage": "https://github.com/quand-jardiner-com/website#readme",
   "dependencies": {
-    "parcel-bundler": "^1.12.4",
-    "sass": "^1.26.5"
-  }
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
+    "core-js": "^3.6.5",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
