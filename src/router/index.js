@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Semis from '../views/Semis.vue'
 
 Vue.use(VueRouter)
 
@@ -8,7 +7,7 @@ const routes = [
   {
     path: '/',
     name: 'Semis',
-    component: Semis
+    component: () => import('../views/Semis.vue')
   },
   {
     path: '/All',
@@ -19,12 +18,15 @@ const routes = [
     path: '/Recolte',
     name: 'Recolte',
     component: () => import('../views/Recolte.vue')
-  }
+  },
+  {
+    path: '*',
+    name: '404',
+    component: () => import('../views/404.vue')
+  },
 ]
 
-const router = new VueRouter({
+export default new VueRouter({
   mode: 'history',
   routes
 })
-
-export default router
