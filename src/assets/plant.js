@@ -7,7 +7,6 @@ module.exports = [
         end_sowing: "4",
         start_harvest: "5 ",
         end_harvest:"9",
-        // exposure: "Soleil",
     },
     {
         name: "Artichaut",
@@ -17,7 +16,6 @@ module.exports = [
         end_sowing: "4",
         start_harvest: "5",
         end_harvest:"10",
-        // exposure: "Soleil",
     },
     {
         name: "Asperge",
@@ -27,7 +25,6 @@ module.exports = [
         end_sowing: "4",
         start_harvest: "4 ",
         end_harvest:"6",
-        // exposure: "Plein soleil",
     },
     {
         name: "Betterave",
@@ -37,7 +34,6 @@ module.exports = [
         end_sowing: "6",
         start_harvest: "7",
         end_harvest:"10",
-        // exposure: "Plein soleil",
     },
     {
         name: "Brocoli",
@@ -47,7 +43,6 @@ module.exports = [
         end_sowing: "6",
         start_harvest: "9 ",
         end_harvest:"3",
-        // exposure: "Soleil",
     },
     {
         name: "Carotte",
@@ -57,7 +52,6 @@ module.exports = [
         end_sowing: "7",
         start_harvest: "7",
         end_harvest:"11",
-        // exposure: "Plein soleil",
     },
     {
         name: "Chou-fleur",
@@ -67,7 +61,6 @@ module.exports = [
         end_sowing: "7",
         start_harvest: "6",
         end_harvest:"11",
-        // exposure: "Plein soleil",
     },
     {
         name: "Citrouille",
@@ -77,7 +70,6 @@ module.exports = [
         end_sowing: "6",
         start_harvest: "9",
         end_harvest:"12",
-        // exposure: "Plein soleil",
     },
     {
         name: "Concombre",
@@ -87,7 +79,6 @@ module.exports = [
         end_sowing: "5",
         start_harvest: "6 ",
         end_harvest:"8",
-        // exposure: "Plein soleil",
     },
     {
         name: "Courgette",
@@ -97,7 +88,6 @@ module.exports = [
         end_sowing: "7",
         start_harvest: "5",
         end_harvest:"10",
-        // exposure: "Plein soleil",
     },
     {
         name: "Epinard",
@@ -107,7 +97,6 @@ module.exports = [
         end_sowing: "5",
         start_harvest: "10 ",
         end_harvest:"7",
-        // exposure: "Soleil / Ombre",
     },
     {
         name: "Oignon rouge",
@@ -117,7 +106,6 @@ module.exports = [
         end_sowing: "5",
         start_harvest: "5",
         end_harvest:"11",
-        // exposure: "Soleil",
     },
     {
         name: "Panais",
@@ -127,7 +115,6 @@ module.exports = [
         end_sowing: "6",
         start_harvest: "9 ",
         end_harvest:"3",
-        // exposure: "Plein soleil",
     },
     {
         name: "Pomme de terre",
@@ -137,7 +124,6 @@ module.exports = [
         end_sowing: "6",
         start_harvest: "9",
         end_harvest:"10",
-        // exposure: "Soleil",
     },
     {
         name: "Petit pois",
@@ -147,7 +133,6 @@ module.exports = [
         end_sowing: "5",
         start_harvest: "3 ",
         end_harvest:"7",
-        // exposure: "Soleil / Mi-ombre",
     },
     {
         name: "Piment",
@@ -157,7 +142,6 @@ module.exports = [
         end_sowing: "5",
         start_harvest: "7",
         end_harvest:"10",
-        // exposure: "Soleil",
     },
     {
         name: "Poivron",
@@ -167,7 +151,6 @@ module.exports = [
         end_sowing: "4",
         start_harvest: "7",
         end_harvest:"10",
-        // exposure: "Soleil",
     },
     {
         name: "Radis",
@@ -177,7 +160,6 @@ module.exports = [
         end_sowing: "9",
         start_harvest: "3",
         end_harvest:"11",
-        // exposure: "Soleil / Mi-ombre",
     },
     {
         name: "Salade",
@@ -187,7 +169,6 @@ module.exports = [
         end_sowing: "0",
         start_harvest: "6 ",
         end_harvest:"9",
-        // exposure: "Soleil",
     },
     {
         name: "Tomate",
@@ -197,6 +178,5 @@ module.exports = [
         end_sowing: "5",
         start_harvest: "6",
         end_harvest:"10",
-        // exposure: "Soleil",
     },
 ];
