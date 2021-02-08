@@ -5,19 +5,33 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
-    name: 'Semis',
-    component: () => import('../views/Semis.vue')
+    path:'/',
+    component: () => import('../views/semis-exterieur.vue')
   },
   {
-    path: '/All',
-    name: 'All',
-    component: () => import('../views/All.vue')
+    path: '/semis-exterieur',
+    name: 'semis-exterieur',
+    component: () => import('../views/semis-exterieur.vue')
   },
   {
-    path: '/Recolte',
-    name: 'Recolte',
-    component: () => import('../views/Recolte.vue')
+    path: '/semis-interieur',
+    name: 'semis-interieur',
+    component: () => import('../views/semis-interieur.vue')
+  },
+  {
+    path: '/plantation',
+    name: 'plantation',
+    component: () => import('../views/plantation')
+  },
+  {
+    path: '/all',
+    name: 'all',
+    component: () => import('../views/all.vue')
+  },
+  {
+    path: '/recolte',
+    name: 'recolte',
+    component: () => import('../views/recolte.vue')
   },
   {
     path: '*',

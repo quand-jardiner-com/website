@@ -13,7 +13,7 @@ import Card from '@/components/Card.vue'
 import plants from '../assets/plant'
 
 export default {
-  name: 'Home',
+  name: 'all',
   data() {
     return {
       plants: plants,

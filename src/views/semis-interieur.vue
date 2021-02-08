@@ -33,10 +33,10 @@ import {filteredPlant} from "@/mixins/filteredPlant";
 
 
 export default {
-  name: 'Semis',
+  name: 'semis-interieur',
   data() {
     return {
-      plants: filteredPlant.filter(true)
+      plants: filteredPlant.filter("cover")
     }
   },
   components: {

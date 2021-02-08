@@ -36,7 +36,7 @@ export default {
   name: 'Reclte',
   data() {
     return {
-      plants: filteredPlant.filter(false)
+      plants: filteredPlant.filter("harvest")
     }
   },
   components: {
