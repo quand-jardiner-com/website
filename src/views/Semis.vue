@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="filteredPlant.length === 0" class="flex justify-center">
+    <div v-if="this.plants.length === 0" class="flex justify-center">
       <div class="rounded-md bg-blue-50 p-4 w-100">
         <div class="flex">
           <div class="flex-shrink-0">
@@ -18,7 +18,7 @@
     </div>
     <div v-else>
       <ul class="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl">
-        <li v-for="plant in filteredPlant">
+        <li v-for="plant in this.plants">
           <Card :name="plant.name" :img="'https://icons-quand-jardiner.netlify.app/'+plant.url+'.png'"/>
         </li>
       </ul>
@@ -27,30 +27,21 @@
 </template>
 
 <script>
-import Card from '@/components/Card.vue'
-import plants from '../assets/plant'
+import Card from '@/components/Card.vue';
+import {filteredPlant} from "@/mixins/filteredPlant";
+
+
 
 export default {
-  name: 'Home',
+  name: 'Semis',
   data() {
     return {
-      dateNow: new Date().getMonth() + 1, // janvier start at 0
-      plants: plants,
+      plants: filteredPlant.filter(true)
     }
   },
   components: {
     Card
-  },
-  computed: {
-    filteredPlant: function () {
-      const filterPlants = []
-      plants.map(plant => {
-        if(this.dateNow >= plant.start_sowing && this.dateNow <= plant.end_sowing){
-          filterPlants.push(plant);
-        }
-      });
-      return filterPlants;
-    }
   }
 }
+
 </script>
