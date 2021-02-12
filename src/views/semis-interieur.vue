@@ -30,8 +30,6 @@
 import Card from '@/components/Card.vue';
 import {filteredPlant} from "@/mixins/filteredPlant";
 
-
-
 export default {
   name: 'semis-interieur',
   data() {
